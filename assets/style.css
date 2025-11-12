@@ -13,8 +13,8 @@
                 "wdth" 100;
             background-color: #FFF8E1;
             color: #3E2723;
-            line-height: 1.7;
-            padding: 20px;
+            line-height: 1.5;
+            padding: 15px;
         }
 
         .container {
@@ -31,13 +31,13 @@
         header {
             background: linear-gradient(135deg, #FFC107, #FFB300);
             color: #3E2723;
-            padding: 1.5rem;
+            padding: 1rem 2rem;
             text-align: center;
             border-bottom: 4px solid #FFA000;
         }
 
         header h1 {
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             font-weight: 700;
             margin-bottom: 0.5rem;
         }
@@ -50,26 +50,14 @@
 
         /* Main content */
         main {
-            padding: 2rem;
+            padding: 10px !important;
         }
-
-        .text-area {
-            width: 100%;
-            min-height: 200px;
-            padding: 1rem;
-            font-size: 1.1rem;
-            border: 2px solid #FFECB3;
-            border-radius: 12px;
-            background-color: #FFFDE7;
-            resize: vertical;
-            margin-bottom: 1.5rem;
-            transition: border-color 0.3s ease;
-        }
-
-        .text-area:focus {
-            outline: none;
-            border-color: #FFC107;
-            box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.2);
+        
+        /* Typography*/
+        .guide {
+            font-size: 0.8rem;
+            color: #333;
+            font-weight: 300;
         }
 
         /* Button Groups */
@@ -128,20 +116,28 @@
         /* Output section */
         .output {
             background-color: #FFF8E1;
-            padding: 1.5rem;
+            padding: 1rem;
             border-radius: 12px;
             border-left: 5px solid #FFC107;
-            margin-top: 1.5rem;
+            margin: 1.5rem 0.5rem;
             font-size: 1.1rem;
         }
 
         .output h3 {
             color: #5D4037;
-            margin-bottom: 0.75rem;
-            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
         }
         .output p {
-            margin-bottom: 0.75rem;
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+        .output a {
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+            outline: 0;
+            color: #3E2723;
+            text-decoration: none;
         }
 
         /* Footer */
@@ -187,7 +183,7 @@
             padding: 1rem 1.5rem;
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            width: 100%;
         }
 
         .modal-header h3 {
