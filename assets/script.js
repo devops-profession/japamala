@@ -4,6 +4,18 @@ document.querySelectorAll('.openModal01').forEach(element => {
         openModal('openModal01');
     });
 });
+document.querySelectorAll('.openModal02').forEach(element => {
+    element.addEventListener('click', function(event) {
+        event.preventDefault();
+        openModal('openModal02');
+    });
+});
+document.querySelectorAll('.openModal03').forEach(element => {
+    element.addEventListener('click', function(event) {
+        event.preventDefault();
+        openModal('openModal03');
+    });
+});
 
         // Modal functions
         function openModal(modalId) {
